@@ -8,7 +8,8 @@
     "dev": "node server.js",
     "electron": "electron .",
     "rebuild": "electron-builder install-app-deps",
-    "build": "electron-builder"
+    "build": "node -e \"console.log('FinanceIQ: sem etapa de compilação web')\"",
+    "build:desktop": "electron-builder"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
